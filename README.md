@@ -122,5 +122,31 @@ DATABASE_URL=postgresql://postgres:postgres@localhost:5433/langgraph_memory_demo
 # Step 6: Get API Keys
 
 Get Groq API Key [https://console.groq.com]
-
 Get Tavily API Key [https://tavily.com](https://tavily.com/)
+Get AviationStack API Key [https://aviationstack.com/]
+
+# Step 7: Run the Application
+
+# Run Multi-Agent System in Terminal
+python main.py
+
+This will test the multi-agent system through the terminal.
+
+# Run Streamlit Web App
+streamlit run frontend.py
+
+This will launch the Multi-Agent AI web application.
+
+Example Prompt
+Plan a complete 7 days Japan trip including flights, hotels and sightseeing under 2 lakhs.
+
+## Project Workflow
+
+1)Flight Agent searches flights
+2) Hotel Agent searches hotels
+3) Itinerary Agent creates travel plan
+4) Final Agent combines everything together
+5) PostgreSQL stores conversation memory
+
+
+
