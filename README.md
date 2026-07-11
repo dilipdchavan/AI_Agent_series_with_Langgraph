@@ -90,3 +90,37 @@ Run the following command:
   pip install langchain-tavily psycopg[binary] psycopg_pool python-dotenv tavily-python requests streamlit
   pip install -U "psycopg[binary,pool]"  langgraph-checkpoint-postgres
 
+  # Step 3: Install PostgreSQL
+
+  Download and install PostgreSQL: https://www.postgresql.org/download/
+
+  Important: While installing PostgreSQL, remember:
+
+- PostgreSQL Password
+- Port Number
+
+You will need them later while creating the database connection string.
+
+ # Step 4: Create Database
+ Open PostgreSQL and run:
+
+CREATE DATABASE langgraph_memory_demo;
+
+# Step 5: Setup .env File
+Create a .env file inside the project folder.
+
+Add the following keys:
+
+GROQ_API_KEY=your_groq_api_key
+
+TAVILY_API_KEY=your_tavily_api_key
+
+AVIATIONSTACK_API_KEY=your_aviationstack_api_key
+
+DATABASE_URL=postgresql://postgres:postgres@localhost:5433/langgraph_memory_demo
+
+# Step 6: Get API Keys
+
+Get Groq API Key [https://console.groq.com]
+
+Get Tavily API Key [https://tavily.com](https://tavily.com/)
