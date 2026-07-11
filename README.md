@@ -77,12 +77,12 @@ Get AviationStack API Key [https://aviationstack.com/]
 
 # Step 7: Run the Application
 
-## Run Multi-Agent System in Terminal
+### Run Multi-Agent System in Terminal
 python main.py
 
 This will test the multi-agent system through the terminal.
 
-## Run Streamlit Web App
+### Run Streamlit Web App
 streamlit run frontend.py
 
 This will launch the Multi-Agent AI web application.
