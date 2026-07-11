@@ -90,7 +90,7 @@ This will launch the Multi-Agent AI web application.
 Example Prompt
 Plan a complete 7 days Japan trip including flights, hotels and sightseeing under 2 lakhs.
 
-## Project Workflow
+## Application Workflow
 
 1)Flight Agent searches flights
 2) Hotel Agent searches hotels
