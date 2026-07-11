@@ -12,3 +12,12 @@ The system leverages four specialized AI agents that collaborate to generate a c
 🌐 Real-time API Integration
 💻 Streamlit Web Interface
 
+## Frameworks & Tools
+-LangGraph
+-LangChain
+-Groq
+-Llama 3.3 70B
+-PostgreSQL
+-Streamlit
+-Tavily API
+-AviationStack API
