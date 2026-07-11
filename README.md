@@ -32,70 +32,19 @@ Windows:  langgraph_env3\Scripts\activate
 
 # Step 2: Install Dependencies
 
-Run the following command:
 
-AI-Travel-Planning-System-using-LangGraph
-/README.md
-codewithaarohi
-codewithaarohi
-update
-ff6c064
- · 
-last month
-AI-Travel-Planning-System-using-LangGraph
-/README.md
 
-Preview
+#### Run the following command:
 
-Code
-
-Blame
-156 lines (84 loc) · 2.63 KB
-AI Travel Planning System using LangGraph
-This project is a Real-World Multi-Agent AI System built using LangGraph.
-
-The system uses 4 AI agents that work together to plan a complete trip automatically.
-
-#### Features
-✈️ Flight Search Agent
-🏨 Hotel Search Agent
-🗓️ Itinerary Planning Agent
-🤖 Final Response Agent
-🧠 Memory using PostgreSQL
-🌐 Real-time API Integration
-💻 Streamlit Web Interface
-
-#### Tech Stack
-LangGraph
-LangChain
-Groq
-Llama 3.3 70B
-PostgreSQL
-Streamlit
-Tavily API
-AviationStack API
-Step 1: Create Python Environment
-Open the terminal inside the project folder and run:
-
-	python -m venv langgraph_env3
-Now activate the environment:
-
-Windows
-	langgraph_env3\Scripts\activate
-YouTube Tuturial (Hindi) - https://youtu.be/ctHby5vhDqg
-YouTube Tuturial (English) - https://youtu.be/_5XF5CCnbDk
-Step 2: Install Dependencies
-Run the following command:
-
-	pip install langgraph langchain langchain-openai langchain-groq langchain-community 
+pip install langgraph langchain langchain-openai langchain-groq langchain-community 
   pip install langchain-tavily psycopg[binary] psycopg_pool python-dotenv tavily-python requests streamlit
   pip install -U "psycopg[binary,pool]"  langgraph-checkpoint-postgres
 
-  # Step 3: Install PostgreSQL
+# Step 3: Install PostgreSQL
 
-  Download and install PostgreSQL: https://www.postgresql.org/download/
+Download and install PostgreSQL: https://www.postgresql.org/download/
 
-  Important: While installing PostgreSQL, remember:
+Important: While installing PostgreSQL, remember:
 
 - PostgreSQL Password
 - Port Number
