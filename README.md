@@ -56,7 +56,7 @@ This project is a Real-World Multi-Agent AI System built using LangGraph.
 
 The system uses 4 AI agents that work together to plan a complete trip automatically.
 
-Features
+#### Features
 ✈️ Flight Search Agent
 🏨 Hotel Search Agent
 🗓️ Itinerary Planning Agent
@@ -64,7 +64,8 @@ Features
 🧠 Memory using PostgreSQL
 🌐 Real-time API Integration
 💻 Streamlit Web Interface
-Tech Stack
+
+#### Tech Stack
 LangGraph
 LangChain
 Groq
@@ -127,12 +128,12 @@ Get AviationStack API Key [https://aviationstack.com/]
 
 # Step 7: Run the Application
 
-# Run Multi-Agent System in Terminal
+## Run Multi-Agent System in Terminal
 python main.py
 
 This will test the multi-agent system through the terminal.
 
-# Run Streamlit Web App
+## Run Streamlit Web App
 streamlit run frontend.py
 
 This will launch the Multi-Agent AI web application.
