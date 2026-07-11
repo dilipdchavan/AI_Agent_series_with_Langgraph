@@ -22,7 +22,7 @@ The system leverages four specialized AI agents that collaborate to generate a c
 -Tavily API
 -AviationStack API
 
-#Step 1: Create Python Environment
+# Step 1: Create Python Environment
 
 Open the terminal inside the project folder and run:
 python -m venv langgraph_env3
@@ -30,7 +30,7 @@ python -m venv langgraph_env3
 Now activate the environment:
 Windows:  langgraph_env3\Scripts\activate
 
-#Step 2: Install Dependencies
+# Step 2: Install Dependencies
 
 Run the following command:
 
